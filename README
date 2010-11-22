@@ -8,16 +8,16 @@ Basic Usage
 
 This will merge in the latest canges from the cowokers master branch on git hub.
 
-Valid Options
 
+Valid Options:
 -r Revision :: Pull in a specific revision instead of the whole branch
 
--u GitHub User Name :: User who's branch we want to merge into
+-u GitHub User Name :: User who's branch we want to merge into our working directory
 
--d Local Working Copy :: Defaults to the Current Path.
+-d Local Working Copy :: Defaults to the Current Path
 
--p GitHub Project Name
+-p GitHub Project Name :: Project name from GitHub with the .git on the end of it.  Example: pull_reqeust.git
 
--b Branch To Get Changes From
+-b Branch To Get Changes From :: Defaults to master
 
 
