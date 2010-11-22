@@ -1,0 +1,23 @@
+v0.1 pull_request.sh
+
+This script provides an easier way to script pull request from team members when using GitHub. This script assumes that the GitHub Remote is named Origin and everything is currently done in quite mode so you only get a nice output.  After it has completed the pull request it will output new commits made by the user that you are pulling from.
+
+Basic Usage
+
+./pull_request.sh -d $HOME/Projects/MyProject -p MyProject.git -u coworker
+
+This will merge in the latest canges from the cowokers master branch on git hub.
+
+Valid Options
+
+-r Revision :: Pull in a specific revision instead of the whole branch
+
+-u GitHub User Name :: User who's branch we want to merge into
+
+-d Local Working Copy :: Defaults to the Current Path.
+
+-p GitHub Project Name
+
+-b Branch To Get Changes From
+
+
