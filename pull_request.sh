@@ -2,7 +2,7 @@
 
 REVISION=""
 
-WD=$HOME/Project
+WD=`pwd`
 BRANCH=master
 PROJECT=MyProject.git
 
