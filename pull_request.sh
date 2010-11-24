@@ -13,7 +13,7 @@ do
       REVISION="$OPTARG"
       ;;
     "u")
-      PLUSER=" $OPTARG"
+      PLUSER="$OPTARG"
       ;;
 	"b")
 	  BRANCH="$OPTARG"
