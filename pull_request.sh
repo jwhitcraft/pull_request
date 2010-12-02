@@ -86,7 +86,7 @@ if [ "$REVISION" == "" ]; then
     echo "Done"
 else
     echo -n "Merge in Revision ${REVISION}..."
-    git merge --quiet $REVISION
+    git cherry-pick -x $REVISION
     echo "Done"
 fi
 

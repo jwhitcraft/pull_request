@@ -1,4 +1,4 @@
-v0.1 pull_request.sh
+v0.2 pull_request.sh
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. (http://creativecommons.org/licenses/by-sa/3.0/)
 
@@ -22,4 +22,12 @@ Valid Options:
 
 -b Branch To Get Changes From :: Defaults to master
 
+
+Version History
+
+v0.2
+Fixed the single revision to run a cherry-pick instead of a merge as the merege was pulling in all change upto that branch
+
+v0.1
+Initial Version
 
